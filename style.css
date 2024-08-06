@@ -84,6 +84,17 @@ button {
         background-color: #3882F6;
         color: white;
         font-weight: bold;
+        border-style: solid;
+        border-radius: 7px;
+        border-width: 3px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
+.action button {
+        border-color: white;
 }
 
 footer {
