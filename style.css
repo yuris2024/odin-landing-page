@@ -115,17 +115,22 @@ h2 {
 .action {
         background-color: #3882F6;
         color: white;
+        border-radius: 7px;
         padding: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
         margin-top: 80px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
         margin-bottom: 60px;
+        display:flex;
 }
 
 button {
         background-color: #3882F6;
         color: white;
         font-weight: bold;
+        width: 120px;
         border-color: #3882f6;
         border-style: solid;
         border-radius: 7px;
@@ -136,9 +141,16 @@ button {
         padding-bottom: 5px;
 }
 
+
+.actiontext{
+        flex-grow: 1;
+}
+
 .action button {
         border-color: white;
 }
+
+
 
 footer {
         padding-bottom: 0px;
