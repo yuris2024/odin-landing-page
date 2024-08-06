@@ -39,6 +39,7 @@ footer,
 
 .intro {
         color: #e4e4e4;
+        padding: 100px;
 }
 
 h1 {
@@ -53,9 +54,9 @@ h1 {
 }
 
 .infocontainer {
-        display:flex;
+        display: flex;
         align-items: center;
-        align-content: center;
+        justify-content: center;
 }
 
 .imagecontainer {
@@ -63,6 +64,7 @@ h1 {
         flex-direction: column;
         width: 150px;
         padding: 5px;
+        margin: 20px;
 }
 
 .infoimage {
