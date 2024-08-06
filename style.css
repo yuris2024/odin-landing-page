@@ -26,9 +26,8 @@ header, footer, .intro {
         background-color: #1F2937;
 }
 
-footer, .info {
+footer, .quote, .info {
         text-align: center;
-        
 }
 
 .intro {
@@ -43,7 +42,6 @@ h1 {
 
 .info {
         color: #374558;
-        padding-bottom: 100px;
 }
 
 h2 {
@@ -58,17 +56,11 @@ h2 {
         font-weight: light;
         font-style: italic;
         color: #1F2937;
-        padding: 100px;
 }
 
 .action {
         background-color: #3882F6;
         color: white;
-        padding: 40px;
-        margin-top: 80px;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 60px;
 }
 
 button {
