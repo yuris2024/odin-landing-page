@@ -150,7 +150,15 @@ button {
         border-color: white;
 }
 
+button:active {
+        border-color:#b3cff5;
+        background-color: #073569;
+}
 
+.action button:active {
+        border-color:#b3cff5;
+        background-color: #073569;
+}
 
 footer {
         padding-bottom: 0px;
