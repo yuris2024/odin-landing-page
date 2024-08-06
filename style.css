@@ -101,15 +101,31 @@ h2 {
         color: #1F2937;
 }
 
-.quote {
+.quotebox {
+        padding: 100px;
+        padding-right: 180px;
+        padding-left: 260px;
         background-color: #E5E7EB;
+        display: flex;
+        flex-direction: column;
+        
+}
+
+.quote {
+        width: 820px;
         font-size: 36px;
         font-weight: light;
         font-style: italic;
         color: #1F2937;
-        padding: 100px;
-        padding-right: 180px;
-        padding-left: 260px;
+        align-self: center;
+        
+}
+
+.quoteby {
+        font-weight: bolder;
+        font-size: 21px;
+        font-style: normal;
+        text-align: right;
 }
 
 .action {
