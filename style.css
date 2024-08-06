@@ -1,5 +1,23 @@
-.intro {
+h3 /* "Header Logo text" */
+{
+        font-size: 24px;
+        color: #F9FAF8;
+        font-weight: bold;
+        display: inline;
+}
 
+header, header a {
+        text-decoration: none;
+        
+}
+
+header, footer, .intro {
+        color: #E5E7EB;
+        background-color: #1F2937;
+}
+
+.intro {
+        color: #e4e4e4;
 }
 
 h1 {
@@ -8,11 +26,8 @@ h1 {
         color: #F9FAF8;
 }
 
-
 .info {
-        font-size: 36px;
-        font-weight: extra-bold;
-        color: #1F2937;
+        color: #374558;
 }
 
 h2 {
@@ -30,21 +45,14 @@ h2 {
 
 .action {
         background-color: #3882F6;
+        color: white;
 }
 
 button {
         background-color: #3882F6;
+        color: white;
+        font-weight: bold;
 }
 
-header, footer, .intro {
-        background-color: #1F2937;
-}
 
-header, header a {
-        color: #E5E7EB;
-}
 
-.logo {
-        font-size: 24px;
-        color: #F9FAF8;
-}
