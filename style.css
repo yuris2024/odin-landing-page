@@ -37,8 +37,6 @@ footer,
         text-align: center;
 }
 
-
-
 .intro {
         color: #e4e4e4;
 }
@@ -52,6 +50,30 @@ h1 {
 .info {
         color: #374558;
         padding-bottom: 100px;
+}
+
+.infocontainer {
+        display:flex;
+        align-items: center;
+        align-content: center;
+}
+
+.imagecontainer {
+        display: flex;
+        flex-direction: column;
+        width: 150px;
+        padding: 5px;
+}
+
+.infoimage {
+        height: 150px;
+        width: 150px;
+        border-style: solid;
+        border-color: #3882f6;
+        border-width: 3px;
+        border-radius: 12px;
+        margin-bottom: 5px;
+        
 }
 
 h2 {
