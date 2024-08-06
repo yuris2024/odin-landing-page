@@ -10,8 +10,10 @@ body {
         flex-direction: column;
 }
 
-h3 /* "Header Logo text" */
-{
+h3
+
+/* "Header Logo text" */
+        {
         font-size: 24px;
         color: #F9FAF8;
         font-weight: bold;
@@ -23,19 +25,19 @@ header a {
         color: #F9FAF8;
 }
 
-header, footer, .intro {
+header,
+footer,
+.intro {
         color: #E5E7EB;
         background-color: #1F2937;
 }
 
-footer, .info {
-        text-align: center;       
+footer,
+.info {
+        text-align: center;
 }
 
-footer {
-        padding-bottom: 0px;
-        margin-top: auto;
-}
+
 
 .intro {
         color: #e4e4e4;
@@ -59,7 +61,7 @@ h2 {
 }
 
 .quote {
-        background-color:#E5E7EB;
+        background-color: #E5E7EB;
         font-size: 36px;
         font-weight: light;
         font-style: italic;
@@ -82,4 +84,11 @@ button {
         background-color: #3882F6;
         color: white;
         font-weight: bold;
+}
+
+footer {
+        padding-bottom: 0px;
+        margin-top: auto;
+        height: 80px;
+        align-content: center;
 }
