@@ -10,14 +10,18 @@ h3 /* "Header Logo text" */
         display: inline;
 }
 
-header, header a {
+header a {
         text-decoration: none;
-        
+        color: #F9FAF8;
 }
 
 header, footer, .intro {
         color: #E5E7EB;
         background-color: #1F2937;
+}
+
+footer, .quote, .info {
+        text-align: center;
 }
 
 .intro {
@@ -58,6 +62,3 @@ button {
         color: white;
         font-weight: bold;
 }
-
-
-
