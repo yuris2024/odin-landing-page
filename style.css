@@ -1,3 +1,7 @@
+* {
+        font-family: 'Segoe UI', sans-serif;
+}
+
 h3 /* "Header Logo text" */
 {
         font-size: 24px;
@@ -39,7 +43,8 @@ h2 {
 .quote {
         background-color:#E5E7EB;
         font-size: 36px;
-        font-weight: light italic;
+        font-weight: light;
+        font-style: italic;
         color: #1F2937;
 }
 
