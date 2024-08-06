@@ -10,19 +10,23 @@ body {
         flex-direction: column;
 }
 
-h3
-
-/* "Header Logo text" */
-        {
+h3 {
         font-size: 24px;
         color: #F9FAF8;
         font-weight: bold;
         display: inline;
 }
 
+header {
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+}
+
 header a {
         text-decoration: none;
         color: #F9FAF8;
+        margin-left: 20px;
 }
 
 header,
